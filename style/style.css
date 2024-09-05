@@ -112,7 +112,7 @@ img, video {
 }
 
 .poster1-footer img {
-    height: 32px;
+    height: 30px;
     width: auto;
 }
 
@@ -168,5 +168,9 @@ img, video {
 
     .poster1-footer{
         position: static;
+    }
+
+    .poster1-footer img:nth-of-type(2){
+        display: none;
     }
 }
