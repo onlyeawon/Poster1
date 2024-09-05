@@ -9,7 +9,7 @@
 html, body {
     height: 100%;
     font-size: 100%;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 img, video {
@@ -66,7 +66,7 @@ img, video {
 .poster1-main .poster1-title {
     background-color: #FFFFFF;
     border: 2px solid black;
-    padding: 17px 44px;
+    padding: 15px 44px;
     margin-top: -20px;
     margin-left: 130px;
     z-index: 2;
@@ -87,7 +87,9 @@ img, video {
 
 
 .poster1-main .poster1-content {
-
+    font-family: "rixmmjse-pro", serif;
+    font-weight: 300;
+    font-style: normal;
     /* 폰트 수정 필요 */
     background-color: #EAFEFF;
     border: 2px solid black;
@@ -142,8 +144,8 @@ img, video {
 
 @media (max-width: 579px) {
     .poster1-header .poster1-date {
-        width: 460px;
-        font-size: 85px;
+        width: 440px;
+        font-size: 85px;letter-spacing:-1px
     }
 
     .poster1-main .poster1-title {
