@@ -143,7 +143,7 @@ img, video {
 @media (max-width: 579px) {
     .poster1-header .poster1-date {
         width: 460px;
-        font-size: 88px;
+        font-size: 85px;
     }
 
     .poster1-main .poster1-title {
